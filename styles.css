@@ -4,6 +4,7 @@
   
   html {
     font-size: 16px;
+    background-color: darkslategrey;
   }
   
   body {
@@ -11,7 +12,7 @@
   }
   
   .label {
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     width: 270px;
     margin: 20px auto;
     padding: 0 7px;
@@ -30,7 +31,7 @@
   }
   
   .divider {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid lightgray;
     margin: 2px 0;
   }
   
@@ -43,7 +44,7 @@
   }
   
   .large, .medium {
-    background-color: black;
+    background-color: whitesmoke;
     border: 0;
   }
   
@@ -91,7 +92,7 @@
   }
   
   .daily-value p:not(.no-divider) {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid lightgray;
   }
   
   .note {
